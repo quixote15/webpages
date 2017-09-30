@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    <title>Bootstrap 101 Template</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+      </button>
+            <a class="navbar-brand" href="#">YouSchool.com</a>
+            </div>
+              <div class="navbar-collapse collapse">
+
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="default"><a href="#">Home</a></li>
+                  <li class="active"><a href="#">About</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li class="dropdown-header">Useful Links</li>
+                        <li><a href="https://google.com">Google</a></li>
+                        <li><a href="https://facebook.com">Facebook</a></li>
+                        <li class="divider"></li>
+                        <li><a href="https://youtube.com">Youtube</a></li>
+                        <li><a href="https://twitter">Twitter</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+
+              </div>
+          </div>  
+      </div>
+    </div>  
+    <div class="container">
+       <div class="jumbotron mypanel">
+          <h1>Learn Anything, Anytime. </h1>
+          <p>YouSchool.com is the best Way for your learning journey! Here you can for sure improve your skills and learn new ones! Sign up now its Free.</p>
+          <a href="#" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">Sing Up</a>
+          <a href="" class="btn btn-primary btn-lg">Sign in</a>
+       </div>
+       <div class="row">
+          <div class="col-sm-4">
+            <h1>OverView</h1>
+            <p>This disambiguation page lists articles associated with the title Online learning. If an internal link led you here, you may wish to change the link to point directly to ...</p>
+            <a href="#" class="btn btn-danger">More</a>
+          </div>
+          <div class="col-sm-4">
+            <h1>Khan Academy</h1>
+            <p>A Khan Academy é uma ONG educacional criada e sustentada por Salman Khan. Com a missão de fornecer educação de alta qualidade para qualquer um, em qualquer lugar , oferece uma coleção grátis de mais de 3.800 vídeos de matemática, história, medicina e saúde, finanças,ciência da computação, entre outras matérias.</p>
+            <a href="http://khanacademy.org" class="btn btn-danger">More</a>
+          </div>
+          <div class="col-sm-4">
+            <h1>Code Academy</h1>
+            <p>Codecademy é um site que possuí uma plataforma interativa online e oferece aulas gratuitas de codificação em linguagens de programação como jQuery, Javascript, Python, Ruby, PHP, bem como as linguagens de marcação, incluindo HTML e CSS.</p>
+            <a href="http://codeacademy.com" class="btn btn-danger">More</a>
+          </div>
+       </div>
+    </div>
+    <div>
+      <div class="container"> 
+        <div class="mypanel">
+          <div class="heading"><h1>Web Development</h1></div>
+          <div class="body">
+            <p>On the web development section you'll learn about the main tecnologies used on the market like html, css,
+            javascrip, jquery, php e etc.</p>
+          </div>
+          <div class="onhover"> <a href="#" class="btn btn-danger">More</a></div>
+         
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">New Account</h4>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <form action="" class="form">
+            <fieldset >
+              
+                <label for="name">Name: </label><input type="text" class="nameField" size="30"><br>
+                <label for="email">Email: </label><input type="text" class="emailField" size="30"><br>
+                <label for="password">Password: </label><input type="password" class="passwordField" size="30"><br>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Create Profile</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="navbar navbar-inverse navbar-static-bottom"> 
+    
+      <div class="container">
+            <div class="navbar-text pull-left">
+              <p>Corpyright - YouSchool.com 2015</p>
+            </div>
+            <div class="navbar-text pull-right">
+              <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+              <a href="#"><i class="fa fa-google fa-2x"></i></a>
+              <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+            </div>
+      </div>
+      </div>
+    </div>
+    
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    
+  </body>
+</html>
